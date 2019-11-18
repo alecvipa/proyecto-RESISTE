@@ -1,0 +1,121 @@
+.istyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+.istyle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 60vh;
+}
+.div1 {
+    background-image: url("../proyecto-RESISTE/images/Portada\ 1.jpg");
+    background-size: cover;   
+    background-attachment: fixed;
+    
+}
+.parallax {
+    background-position: 0 0;
+
+}
+div:nth-child(2) {
+    background-color: goldenrod;
+    
+}
+div:nth-child(3) {
+    background-image: url("../proyecto-RESISTE/images/Portada2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    
+}
+div:nth-child(4) {
+    background-color: goldenrod;
+}
+
+#carrousel {
+
+    position: absolute;
+    left: 37%;
+    top: 900px;
+
+}
+section {
+    position: relative;
+    left: 28%;
+    bottom: 25%;
+}
+
+.mySlides {
+    display:none;
+}
+.w3-section {
+
+    max-width: 400pt;
+    position: relative;
+    left: -110%;
+    margin-top: 8%;
+
+}
+.promotitles {
+    text-align: right;
+    position: relative;
+    bottom: 30%;
+    left: 20%;
+    font-family: initial;
+    position: relative;
+    left: 50%;
+}
+
+.títuloinicio {
+    position: relative;
+    right: 14%;
+    bottom: 25%;
+    background: rgb(14, 13, 13, 0.50);
+    font-family: initial;
+    color: white;
+}
+.pinicio {
+    background: rgb(14, 13, 13, 0.60);
+    font-family: initial;
+    color: white;
+    text-align: justify;
+    font-size: 150%;
+}
+.seccionpinicio {
+    position: relative;
+    bottom: 3%;
+    right: 38%;
+    width: 30%;
+}
+.pmedia {
+   color: #000;
+    font-size: 200%;
+    width: 50%;
+    font-family: initial;
+    text-align: right;
+}
+#pmedia {
+    position: relative;
+    left: 30%;
+}
+.quotes {
+    width: 50%;
+    text-align: center;
+    margin-top: 15%;
+}
+.quote, .peoplequote {
+
+    position: relative;
+    right: 53%;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1000px) {
+}
